@@ -310,7 +310,7 @@ function atualizar1(){
 
     function sair(){
         localStorage.removeItem("usuariologado")
-        location.assign("./log.html")
+        location.assign("./index.html")
     }
 
 }
