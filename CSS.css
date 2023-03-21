@@ -1,0 +1,201 @@
+.loginpag {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    background-image: url('./img_web.png');
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: black;
+}
+.fundo{
+    width: 100%;
+    height: 100%;
+}
+.centralizar{
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 5%;
+    flex-direction:row;
+    
+    display:flex;
+    background-color: #14588b;
+}
+.cabecalho{
+    color: white;
+    height: 100%;
+    padding-left: 155px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nomelogado {
+    color: #ffffff;
+    font-size: 25px;
+    width: 30%;
+    height: 100%;
+    padding-left: 10px;
+    padding-top: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.menu{
+    width: 100%;
+    height: 5vh;
+    position:relative;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content:center;
+    background-color: #0f68ab;
+    margin: 0;
+
+}
+
+.btmenu{
+    width: 15vh;
+    height: 5vh;
+    text-align: center;
+    background-color: transparent;
+    border: transparent;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+}
+
+.btmenu:hover{
+    color: #0f68ab;
+    background-color: white;
+    
+
+}
+
+main {
+    width: 100%;
+    height: 95%;
+    text-align: center;
+    /* border: 1px solid rgb(173, 21, 21); */
+
+}
+.center{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: 1px solid rgb(101, 45, 45);
+}
+
+.cartao{
+    
+    background-color: white;
+    width: 20%;
+    height: 40%;
+    border-radius: 15px;
+    
+}
+.title{
+    width: 100%;
+    height: 20%;
+    background-color: #0f68ab;
+    font-size: 20px;
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px;
+    color: white;
+
+}
+.FormLog{
+    margin-top: 30px;
+    
+
+}
+#nome{
+    width: 80%;
+    height: 2vh;
+    
+}
+#senha{
+    width: 80%;
+    height: 2vh;
+    margin-top: 10px;
+    
+}
+.btlogin{
+    width: 80%;
+    height: 3vh;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color:#00FF7F ;
+    border: 0px;
+    color: white;
+}
+.nomepag {
+    color: #00FF7F;
+    /* border: 1px solid rgb(255, 255, 255); */
+    width: 100vw;
+    height: 10vh;
+
+}
+
+p{
+    color: white;
+}
+
+#List{
+    position:relative;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    background-color: white;
+    width: 40%;
+    border-radius: 15px;
+    margin: 30px;
+
+
+}
+footer {
+    width: 100vw;
+    height: 10vh;
+    background-color: #00FF7F;
+    /* border: 1px solid rgb(255, 255, 255); */
+    text-align: center;
+}
+
+.Formnv{
+
+    color: black;
+
+}
+.titulos{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0f68ab;
+
+}
+.bts{
+    width: 20vh;
+    height: 3vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius:15px;
+    background-color:#0f68ab ;
+    border: 0px;
+    color: white;
+}
+.bts:hover{
+    
+    background-color: #1c7bc4;
+    
+
+}
